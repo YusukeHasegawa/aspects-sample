@@ -20,6 +20,8 @@ public class ServiceTest {
 
         FooService fooService = new FooService();
         assertThat(fooService.say()).isEqualTo("bar");
+
+        assertThat(BarService.hoo()).isEqualTo("hoo");
     }
 
 }
