@@ -22,6 +22,7 @@ public class ServiceTest {
         assertThat(fooService.say()).isEqualTo("bar");
 
         assertThat(BarService.hoo()).isEqualTo("hoo");
+        assertThat(fooService.getFoo()).isEqualTo("fooooooooo");
     }
 
 }
