@@ -23,6 +23,8 @@ public class ServiceTest {
 
         assertThat(BarService.hoo()).isEqualTo("hoo");
         assertThat(fooService.getFoo()).isEqualTo("fooooooooo");
+
+        assertThat(fooService.quote("1")).isEqualTo("'1'");
     }
 
 }
